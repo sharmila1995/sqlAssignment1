@@ -56,10 +56,10 @@ public class Console {
             i = getInt(prompt);
             if (i <= min) {
                 System.out.println(
-                        "Error! Number must be greater than " + min + ".");
+                        "ID must be greater than " + min + ".");
             } else if (i >= max) {
                 System.out.println(
-                        "Error! Number must be less than " + max + ".");
+                        "Currently there are only  " + max + " tracks.");
             } else {
                 isValid = true;
             }
